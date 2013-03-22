@@ -17,5 +17,5 @@ class Gear
   end
 end
 
-puts Gear.new(52, 11, 26, 1.5).ratio # 137.09090909090
-puts Gear.new(30, 27, 24, 1.25).ratio # 125.2727272727
+puts Gear.new(52, 11, 26, 1.5).gear_inches # 137.09090909090
+puts Gear.new(30, 27, 24, 1.25).gear_inches # 125.2727272727
